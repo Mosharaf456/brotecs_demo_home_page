@@ -1,29 +1,3 @@
-/* 
-
-*,
-*::after,
-*::before {
-    -webkit-box-sizing: inherit;
-            box-sizing: inherit;
-}
-
-html {
-    font-size: 62.5%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 100%;
-}
-
-body {
-    margin: auto;
-}
-*/
-/* .container {
-    width: 800px;
-    height: 500px;
-    margin: auto;
-    margin-top: 20px;
-}  */
 
 .mrg-t {
 margin-top: 10rem;
