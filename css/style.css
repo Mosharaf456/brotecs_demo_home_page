@@ -1,15 +1,9 @@
 
 body{
-/* background-image: url(../images/background_images.jpg) no-repeat fixed;
-background-size: 100% 100vh;
-background-repeat:no-repeat;
-background-size:cover;
-background-position:center; */
-
-background-image:url(../images/background_images.jpg);
+/* background-image:url(../images/background_images.jpg);
 background-repeat:no-repeat;
 background-size:contain;
-background-position:center;
+background-position:center; */
 
 }
 *{
@@ -428,7 +422,7 @@ font-weight: bold;
 /* end footer */
 
 
-/* Media css */
+/* Media css submenu */
 @media screen and (max-width: 3000px){
     #cssmenu ul ul li a {
         border-bottom: 1px solid rgba(150, 150, 150, 0.15);
@@ -497,7 +491,7 @@ font-weight: bold;
     }
     #cssmenu ul li {
         width: 100%;
-        border-top: 1px solid black;
+        border-top: 1px solid rgb(83, 81, 81);
     }
 }
 
@@ -507,7 +501,7 @@ font-weight: bold;
     }
     #cssmenu ul li {
         width: 100%;
-        border-top: 1px solid black;
+        border-top: 1px solid rgb(83, 81, 81);
     }
     .software-card {
         /* padding-top: 5rem; */
