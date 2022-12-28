@@ -1,0 +1,48 @@
+/* media css to control submenu view */
+/* 
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    bottom: 100%;
+    margin-top: -1px;
+}
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;  
+}
+
+*/
+
+
+
+@media(max-width: 1199px){
+
+}
+
+@media(max-width:991px){
+  
+
+}
+
+@media(max-width:767px){
+    .img-team img{
+        margin-left: 1rem;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:575px){
+
+    .img-team img{
+        margin-left: 1rem;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:320px){
+ .img-team img{
+        margin-left: 1rem;
+        text-align: center;
+    }
+    
+}
