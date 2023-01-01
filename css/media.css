@@ -172,12 +172,31 @@
 @media screen and (max-width: 300px)
 {
     .logo img {
-        min-height: 3rem;
-        min-width: 2px;
+        width: 95px!important;
+        height: 50px!important;
+    }
+    #cssmenu {
+        width: 90%;
     }
     .img-team img {
         text-align: center;
         min-height: 17rem;
         margin-left: 2rem;
     }
+    .button {
+        margin-left: -5pxpx;
+        width: 64px;
+        height: 46px;
+        position: absolute;
+        right: -53px;
+        top: 0;
+        cursor: pointer;
+        z-index: 12399994;
+    }
+    #cssmenu ul ul li a {
+        border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+        padding: 11px 15px;
+        width: 150px;
+    }
+  
 }
