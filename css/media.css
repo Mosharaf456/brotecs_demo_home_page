@@ -17,6 +17,8 @@
     }  
     .logo img{
         min-height: 5rem;
+        height: 10px;
+        
     }
     .footer-img img {
         min-width: 228px;
@@ -107,7 +109,7 @@
     width: 100%;
 }
 .logo img {
-    min-height: 3rem;
+    min-height: 4rem;
     min-width: 2px;
 }
 

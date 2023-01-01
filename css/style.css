@@ -34,8 +34,9 @@ li a i:hover {
     background-attachment: fixed;
 
 }
-.progress{
-    height: .03rem;
+.progress {
+    height: 0.03rem;
+    width: 89%;
 }
 .progress-bar{
     background-color: #ffffff;
