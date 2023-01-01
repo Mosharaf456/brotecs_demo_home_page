@@ -27,10 +27,11 @@ li a i:hover {
 
 .total-header-part {
     background-image: url("../images/background_images.jpg");
-    background-position: center;
-    background-size: cover;
+    background-position:center top;
+    background-size: 100% auto;
     min-height: 80vh;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 .progress{
@@ -60,7 +61,7 @@ li a i:hover {
 
 /* start optimized this with device width */
 
-.navbar-nav li:hover>ul.dropdown-menu {
+/* .navbar-nav li:hover>ul.dropdown-menu {
 
     display: inline-grid;
 }
@@ -73,8 +74,17 @@ li a i:hover {
     top: 0;
     right: 100%;
     margin-top: -6px;
-}
+} */
 
+#cssmenu > ul > li > a {
+    padding: 17px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    font-weight: 800;
+    margin-right: -20px;
+}
 /* end optimized this with device width  */
 
 /* padding and design to look nice */
@@ -155,10 +165,26 @@ li a i:hover {
     margin-top: -10rem;
     padding-bottom: 10rem;
 }
+.icon-pad-custom{
+    background-color: black;
+    color: white;
+    padding: 11px;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+.icon-pad-custom-2{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    margin-right: 12px;
+    border-radius: 5px;
+}
 
 /*  */
 .text{
     padding-top: 40px;
+    padding-bottom: 35px;
+    
 }
 .text h2{
     font-family: "Playfair Display",sans-serif;
@@ -177,6 +203,11 @@ li a i:hover {
 .text p{
     font-family: "Playfair Display",sans-serif;
     margin-bottom: 40px;
+}
+.text-head-card{
+    /* padding-top:2px;
+    padding-bottom: 2px; */
+    line-height: 1;
 }
 .gallery1:hover {
     border-color:#008ed6;
@@ -200,7 +231,7 @@ li a i:hover {
     background-image: url("../images/header-banner.jpg");
     background-position: center;
     background-size: cover;
-    min-height: 20vh;
+    min-height: 10px;
     background-repeat: no-repeat;
     max-width: 100%;
 
@@ -209,6 +240,14 @@ li a i:hover {
 color:#f4f4f4;
 font-size: 46px;
 font-weight: 900;
+}
+.card {
+    padding: 52px;
+}
+.card-body{
+    padding-right: 40px;
+    text-align: left;
+    color: #999999;
 }
 /* end software-card description card*/
 
@@ -422,90 +461,7 @@ font-weight: bold;
 /* end footer */
 
 
-/* Media css submenu */
-@media screen and (max-width: 3000px){
-    #cssmenu ul ul li a {
-        border-bottom: 1px solid rgba(150, 150, 150, 0.15);
-        padding: 11px 15px;
-        width: 170px;
-        font-size: 12px;
-        text-decoration: none;
-        color: #fff;
-        font-weight: 400;
-        background: black;
-    }
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: block;
-        max-width: 100%;
-        height: 6rem;
-    }  
-}
-@media screen and (max-width: 920px){
-    #cssmenu ul ul li a {
-        border-bottom: 1px solid rgba(150, 150, 150, 0.15);
-        padding: 11px 15px;
-        width: 170px;
-        font-size: 12px;
-        text-decoration: none;
-        color: #fff;
-        font-weight: 400;
-        background: black;
-    }
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: block;
-        max-width: 100%;
-        height: 40px;
-    }  
-}
-@media screen and (max-width: 920px){
-    #cssmenu ul ul li a {
-        border-bottom: 1px solid rgba(150, 150, 150, 0.15);
-        padding: 11px 15px;
-        width: 170px;
-        font-size: 12px;
-        text-decoration: none;
-        color: #fff;
-        font-weight: 400;
-        background: black;
-    }
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: block;
-        max-width: 100%;
-        height: 40px;
-    }  
-}
-@media screen and (max-width:500px) {
-    .total-header-part {
-        background-image: url(../images/background_images.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 50px;
-        background-repeat: no-repeat;
-    }
-   
-}
 
-@media screen and (max-width:500px) {
-    #cssmenu ul ul li {
-        background: black !important;
-    }
-    #cssmenu ul li {
-        width: 100%;
-        border-top: 1px solid rgb(83, 81, 81);
-    }
-}
 
-@media screen and (max-width:350px) {
-    #cssmenu ul ul li {
-        background: black !important;
-    }
-    #cssmenu ul li {
-        width: 100%;
-        border-top: 1px solid rgb(83, 81, 81);
-    }
-    .software-card {
-        /* padding-top: 5rem; */
-        margin-top: 15rem;
-        padding-bottom: 10rem;
-    }
-}
+
+

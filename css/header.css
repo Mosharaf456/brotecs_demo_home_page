@@ -345,10 +345,29 @@ nav{
 		cursor: pointer;
 		z-index: 12399994;
 	}
-
+.button1 {
+		width: 55px;
+		height: 46px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		cursor: pointer;
+		z-index: 12399994;
+	}
+.button1:after{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	display: block;
+	height: 4px;
+	width: 20px;
+	border-top: 2px solid #dddddd;
+	border-bottom: 2px solid #dddddd;
+	content: ''
+}
 	.button:after {
 		position: absolute;
-		top: 22px;
+		top: 23px;
 		right: 20px;
 		display: block;
 		height: 4px;
@@ -366,7 +385,7 @@ nav{
 		top: 16px;
 		right: 20px;
 		display: block;
-		height: 2px;
+		height: 4px;
 		width: 20px;
 		background: #ddd;
 		content: ''
@@ -379,7 +398,7 @@ nav{
     top: 16px;
     right: 20px;
     display: block;
-    height: 2px;
+    height: 4px;
     width: 20px;
     background: #ddd;
     content: '';
@@ -390,25 +409,25 @@ nav{
 		transition: all .3s ease;
 		top: 23px;
 		border: 0;
-		height: 2px;
-		width: 19px;
+		height: 4px;
+		width: 20px;
 		background: #fff;
-		-webkit-transform: rotate(45deg);
+		/* -webkit-transform: rotate(45deg);
 		-moz-transform: rotate(45deg);
 		-ms-transform: rotate(45deg);
 		-o-transform: rotate(45deg);
-		transform: rotate(45deg)
+		transform: rotate(45deg) */
 	}
 
 	.button.menu-opened:before {
-		top: 23px;
+		top: 16px;
 		background: #fff;
-		width: 19px;
-		-webkit-transform: rotate(-45deg);
+		width: 20px;
+		/* -webkit-transform: rotate(-45deg);
 		-moz-transform: rotate(-45deg);
 		-ms-transform: rotate(-45deg);
 		-o-transform: rotate(-45deg);
-		transform: rotate(-45deg)
+		transform: rotate(-45deg) */
 	}
 
 	#cssmenu .submenu-button {
