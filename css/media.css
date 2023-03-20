@@ -3,7 +3,8 @@
     #cssmenu ul ul li a {
         border-bottom: 1px solid rgba(150, 150, 150, 0.15);
         padding: 11px 15px;
-        width: 170px;
+        /* width: 203px;  */
+        width: 203px;
         font-size: 12px;
         text-decoration: none;
         color: #fff;
